@@ -1,0 +1,15 @@
+%%
+
+randomNum = randi([1 1],1,1);
+disp(randomNum);
+randList = [3];
+randList(end+1) = randomNum;
+disp(randList);
+isFind = find(randList==randomNum);
+disp(isFind);
+
+%% 
+randNum = randi([1 16],1,1);
+randisVision = [];
+
+if(find(randList==randomNum))
